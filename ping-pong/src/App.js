@@ -1,12 +1,13 @@
-
+import GameArea from "./Components/GameArea";
 import './App.css';
-
-function App() {
+const App = () => {
   return (
     <div>
-      <p>hello nithin</p>
+      <h1 className="heading" >ping pong Game</h1>
+      <p>Use 'A' and 'D' for the top paddle, and the arrow keys for the bottom paddle.</p>
+      <GameArea />
     </div>
   );
-}
+};
 
 export default App;
